@@ -6,6 +6,15 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 100%;
+}
+
 /* ///////////////// Encabezado ///////////////// */
 header {
   width: 22.9375vw;
@@ -447,14 +456,6 @@ section footer {
       section footer a:hover {
         color: grey;
       }
-body::-webkit-scrollbar {
-  width: 7px;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: white;
-  border-radius: 100%;
-}
 
 /* //////////////////////////////////////////// Media Tablet //////////////////////////////////////////// */
 
